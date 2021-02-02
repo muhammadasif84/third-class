@@ -39,4 +39,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build third-class-2021.surge.sh --token ${{ secrets.THIRD_SURGE_TOKEN }}
+      run: surge ./build third-class-2021.surge.sh --token ${{ secrets.THIRD_CLASS_TOKEN }}
